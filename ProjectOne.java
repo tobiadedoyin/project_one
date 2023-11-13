@@ -46,7 +46,7 @@ public class ProjectOne {
         try(PreparedStatement preparedStatement = connection.prepareStatement(insertIntoUser); Scanner input = new Scanner(System.in)){
 
             int i = 0;
-            while (i < 2){
+            while (i < 10){
                 System.out.printf("Data for row %d \t", (i + 1));
                 System.out.println("Enter your name:");
                 String Name = input.nextLine();
